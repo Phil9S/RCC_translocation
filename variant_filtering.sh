@@ -6,6 +6,12 @@ ANNO="/INSTALL_PATH/annovar/"
 GATK="GenomeAnalysisTK.jar"
 REF="hg38.bwa.fa"
 
+# vcftools - version 0.1.15
+# GATK - version 3.7-0-gcfedb67
+# bcftools - version 1.8
+# R - version 3.3
+# Annovar - version 2016-02-01 
+
 # Filter all sites containing ref/ref for all positions & on provided filters
 vcftools --vcf variants.vcf --non-ref-ac-any 1 \
 	 --min-meanDP ${MEANDP} --max-maf ${MAF} \

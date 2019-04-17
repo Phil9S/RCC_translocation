@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# canvas - version 1.39.0.1598+master
+# tabix - version 1.8
+# bcftools - version 1.8
+# bedtools - version 2.25.0 
+
 OUTPUT="/home/user"
 INPUT="/bams/"
 SUFFIX=".sorted.final.bam"

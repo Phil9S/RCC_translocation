@@ -4,6 +4,8 @@ REFERENCE="hg38.bwa"
 CORES=6
 BED="nexterarapidcapture_exome_targetedregions_v1.2_hg38.bed"
 
+# GATk - version 3.7-0-gcfedb67
+
 ls *.sorted.final.bam > bam.list
 
 java -Xmx60g -jar ${GATK} -glm BOTH \
